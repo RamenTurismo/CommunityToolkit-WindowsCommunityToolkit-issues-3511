@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="App3511.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:App3511"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:media="using:Microsoft.Toolkit.Uwp.UI.Media"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Ellipse
+            Width="20"
+            Height="20"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top">
+            <Ellipse.Fill>
+                <media:RadialGradientBrush>
+                    <GradientStop Offset="0" Color="Gray" />
+                    <GradientStop Offset="1" Color="White" />
+                </media:RadialGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+    </Grid>
+</Page>
